@@ -1,3 +1,55 @@
+### The Algorithm Idea.....
+The strategy leverages machine learning methodologies, specifically logistic regression, in conjunction with technical indicators like Bollinger Bands to forecast price movements and execute trading decisions.
+
+### Step 1: Setup Environment
+1. **Install Python**: Ensure Python is installed on your system. You can download and install Python from the official website: [Python.org](https://www.python.org/).
+
+2. **Clone Repository**: Clone the repository to your local machine using the following command:
+   ```bash
+   git clone https://github.com/yllvar/Kucoin_Logistic_Regression.git
+   ```
+
+3. **Navigate to Repository**: Change your current directory to the cloned repository:
+   ```bash
+   cd Kucoin_Logistic_Regression
+   ```
+
+### Step 2: Install Dependencies
+1. **Create Virtual Environment (Optional)**: It's advisable to create a virtual environment to manage dependencies. You can create one using virtualenv or conda.
+   ```bash
+   virtualenv venv
+   source venv/bin/activate
+   ```
+
+2. **Install Dependencies**: Install the required Python packages listed in `requirements.txt` using pip.
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Step 3: Setup Environment Variables
+1. **Manage Secrets with .env file**: Create a `.env` file in the root directory of the repository to securely store sensitive information like API keys or passwords.
+   ```bash
+   touch .env
+   ```
+
+2. **Add Secrets to .env**: Open the `.env` file in a text editor and add your secret keys or credentials in the following format:
+   ```
+   API_KEY=your_api_key
+   SECRET_KEY=your_secret_key
+   PASSPHRASE=your_passphrase
+   ```
+
+### Step 4: Run the Logistic Regression.ipynb
+1. **Start Jupyter Notebook**: Launch Jupyter Notebook by executing the following command in your terminal:
+   ```bash
+   jupyter notebook
+   ```
+
+2. **Navigate to Notebook**: Open the `Logistic Regression.ipynb` notebook from the repository directory in Jupyter Notebook.
+
+3. **Execute Cells**: Execute the cells in the notebook one by one to run the code sequentially. Make sure to review and understand each step before proceeding.
+
+
 # Kucoin Logistic Regression Trading Strategy
 
 The provided code represents a data-driven approach to cryptocurrency trading strategy development and evaluation. Here's a general explanation of the code:
